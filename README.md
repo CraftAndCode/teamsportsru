@@ -11,7 +11,7 @@
 {
     "name": "Условные конструкции",
     "imageUrl":"https://raw.githubusercontent.com/CraftAndCode/mood-badge/master/mood%20badge%20schematic.gif",
-    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/conditions-and-statements", 
+    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/conditions-and-statements/ru", 
     "description": "Научим Micro:bit принимать решения", 
     "cardType": "tutorial",
     "label": "Advanced",
