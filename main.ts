@@ -1,17 +1,21 @@
 input.onButtonPressed(Button.A, function () {
-    Pause = true
-    basic.showNumber(LeftPlayerScore)
-    basic.pause(1000)
-    Pause = false
+    if (!(Pause)) {
+        Pause = true
+        basic.showNumber(LeftPlayerScore)
+        basic.pause(1000)
+        Pause = false
+    }
 })
 input.onButtonPressed(Button.AB, function () {
     control.reset()
 })
 input.onButtonPressed(Button.B, function () {
-    Pause = true
-    basic.showNumber(RightPlayerScore)
-    basic.pause(1000)
-    Pause = false
+    if (!(Pause)) {
+        Pause = true
+        basic.showNumber(RightPlayerScore)
+        basic.pause(1000)
+        Pause = false
+    }
 })
 let goal1 = 0
 let goal = 0
@@ -67,7 +71,7 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    if (control.millis() > StartTime + MatchTime * 60000) {
+    if (control.millis() > StartTime + MatchTime * 60000 || (LeftPlayerScore > ScoreToWin || LeftPlayerScore > ScoreToWin)) {
         Pause = true
         music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
         basic.showLeds(`
