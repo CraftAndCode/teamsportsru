@@ -20,7 +20,7 @@
 {
     "name": "Продвинутые датчики",
     "imageUrl":"https://raw.githubusercontent.com/CraftAndCode/mood-badge/master/mood%20badge%20schematic.gif",
-    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/advanced-sensors", 
+    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/advanced-sensors/ru", 
     "description": "Научим Micro:bit считывать данные с датчиков", 
     "cardType": "tutorial",
     "label": "Advanced",
@@ -29,7 +29,7 @@
 {
     "name": "Логические операторы",
     "imageUrl":"https://raw.githubusercontent.com/CraftAndCode/mood-badge/master/mood%20badge%20schematic.gif",
-    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/logical-operations", 
+    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/logical-operations/ru", 
     "description": "Научим Micro:bit понимать слова И, ИЛИ и НЕ", 
     "cardType": "tutorial",
     "label": "Advanced",
