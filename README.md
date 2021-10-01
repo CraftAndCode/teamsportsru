@@ -45,7 +45,7 @@
 {
     "name": "Меняем правила!",
     "imageUrl":"https://raw.githubusercontent.com/CraftAndCode/mood-badge/master/mood%20badge%20schematic.gif",
-    "url": "https://makecode.microbit.org/#tutorial:32768-17175-24774-91337", 
+    "url": "https://makecode.microbit.org/#tutorial:44093-35336-48736-30388", 
     "description": "Задаём имена игроков, время матча и фору", 
     "cardType": "tutorial",
     "label": "Easy",

@@ -71,7 +71,7 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    if (control.millis() > StartTime + MatchTime * 60000 || (LeftPlayerScore > ScoreToWin || LeftPlayerScore > ScoreToWin)) {
+    if (control.millis() > StartTime + MatchTime * 60000 || (LeftPlayerScore > ScoreToWin || RightPlayerScore > ScoreToWin)) {
         Pause = true
         music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
         basic.showLeds(`
