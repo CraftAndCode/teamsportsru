@@ -21,7 +21,7 @@
     "name": "Продвинутые датчики",
     "imageUrl":"https://raw.githubusercontent.com/CraftAndCode/mood-badge/master/mood%20badge%20schematic.gif",
     "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/advanced-sensors", 
-    "description": "Научим Micro:bit считывать значения датчиков", 
+    "description": "Научим Micro:bit считывать данные с датчиков", 
     "cardType": "tutorial",
     "label": "Advanced",
     "labelClass": "orange ribbon small"
