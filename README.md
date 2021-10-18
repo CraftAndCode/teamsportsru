@@ -34,6 +34,15 @@
     "cardType": "tutorial",
     "label": "Advanced",
     "labelClass": "orange ribbon small"
+},
+{
+    "name": "Цифровой ввод",
+    "imageUrl":"https://raw.githubusercontent.com/CraftAndCode/mood-badge/master/mood%20badge%20schematic.gif",
+    "url": "https://makecode.microbit.org/#tutorial:github:craftandcode/digital-input/ru", 
+    "description": "Научим Micro:bit реагировать на размыкание контактов", 
+    "cardType": "tutorial",
+    "label": "Advanced",
+    "labelClass": "orange ribbon small"
 }
 ]
 ```
